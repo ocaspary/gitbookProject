@@ -120,8 +120,6 @@ void loop() {
 
 Comprendre le programme ci-dessus et le faire fonctionner sur ESP32 (saisissez 1000 pour 1s).
 
-
-
 _File : ESP32\_Mutex\_Semaphore.ino_
 
 ```arduino
@@ -194,7 +192,9 @@ Comprendre le programme et le faire fonctionner.
 
 
 
-Travail à réaliser : Écrire un programme qui vous permet de modifier en temps réel la période de clignotement de la LED bleue.
+**Travail à faire :**&#x20;
+
+Écrire un programme qui vous permet de modifier en temps réel la période de clignotement de la LED bleue.
 
 #### Documentation FreeRTOS pour approfondir la partie RTOS
 

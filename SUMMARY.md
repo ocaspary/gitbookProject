@@ -1,18 +1,22 @@
 # Table of contents
 
-* [Test](README.md)
+* [Gestion des tâches avancées (FreeRTOS)](README.md)
 
-## Guides
+## Cours
 
-* [Premier Essai](guides/premier-essai.md)
-* [Creating your first task](guides/creating-your-first-task.md)
-* [Advanced permissions](guides/advanced-permissions.md)
+* [Rappels](cours/rappels.md)
+* [Introduction](cours/introduction.md)
+* [LED asynchrones](cours/led-asynchrones.md)
+* [LED synchrones](cours/led-synchrones.md)
 
-## Fundamentals
+## Complément et réalisation
 
-* [Members](fundamentals/members.md)
-* [Task Lists](fundamentals/task-lists.md)
-* [Tasks](fundamentals/tasks.md)
+* [Une tâche](complement-et-realisation/une-tache.md)
+* [Deux tâches](complement-et-realisation/deux-taches.md)
+* [Les files d'attente](complement-et-realisation/les-files-dattente.md)
+* [Le sémaphore binaire](complement-et-realisation/le-semaphore-binaire.md)
+* [Sémaphore et Mutex](complement-et-realisation/semaphore-et-mutex.md)
+* [Clignotement de la LED bleue](complement-et-realisation/clignotement-de-la-led-bleue.md)
 
 ## Use Cases
 

@@ -2,7 +2,7 @@
 description: ceci est un test
 ---
 
-# Test
+# Gestion des tâches avancées (FreeRTOS)
 
 {% hint style="info" %}
 **Good to know:** providing a brief overview of your product and its core use cases is a great place to start with product docs. Your product might seem obvious to you – you made it! However, to others, even folks who are trying your product after reading your site or getting a sales demo, it can still be unclear. This is your chance to clarify your product and set the right expectations!
@@ -34,16 +34,16 @@ Here are a couple of examples of succinct overviews from products with really gr
 
 Follow our handy guides to get started on the basics as quickly as possible:
 
-{% content-ref url="guides/premier-essai.md" %}
-[premier-essai.md](guides/premier-essai.md)
+{% content-ref url="cours/rappels.md" %}
+[rappels.md](cours/rappels.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/creating-your-first-task.md" %}
-[creating-your-first-task.md](guides/creating-your-first-task.md)
+{% content-ref url="cours/introduction.md" %}
+[introduction.md](cours/introduction.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/advanced-permissions.md" %}
-[advanced-permissions.md](guides/advanced-permissions.md)
+{% content-ref url="cours/led-asynchrones.md" %}
+[led-asynchrones.md](cours/led-asynchrones.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}
@@ -58,16 +58,16 @@ Learn the fundamentals of MyProduct to get a deeper understanding of our main fe
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="fundamentals/members.md" %}
-[members.md](fundamentals/members.md)
+{% content-ref url="complement-et-realisation/deux-taches.md" %}
+[deux-taches.md](complement-et-realisation/deux-taches.md)
 {% endcontent-ref %}
 
-{% content-ref url="fundamentals/task-lists.md" %}
-[task-lists.md](fundamentals/task-lists.md)
+{% content-ref url="complement-et-realisation/les-files-dattente.md" %}
+[les-files-dattente.md](complement-et-realisation/les-files-dattente.md)
 {% endcontent-ref %}
 
-{% content-ref url="fundamentals/tasks.md" %}
-[tasks.md](fundamentals/tasks.md)
+{% content-ref url="complement-et-realisation/le-semaphore-binaire.md" %}
+[le-semaphore-binaire.md](complement-et-realisation/le-semaphore-binaire.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}

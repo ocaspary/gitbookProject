@@ -2,7 +2,7 @@
 
 **La tâche clignotement de la LED bleue**
 
-Nous avons commencé ce module par un premier exemple sur l’ESP32 qui faisait clignoter la LED bleue par défaut** **(LED\_BUILTIN) sur notre modèle d’ESP32 à GPIO2.
+Nous avons commencé ce module par un premier exemple sur l’ESP32 qui faisait clignoter la LED bleue par défaut **** (LED\_BUILTIN) sur notre modèle d’ESP32 à GPIO2.
 
 Reprenons ce programme en écrivant une tâche blinkLed() optimisée et qui gère les ticks.
 
@@ -61,3 +61,38 @@ void loop() {}
 ```
 
 Comprendre le programme. Quelle différence entre vTaskDelay() et vTaskDelayUntil() ?
+
+Une autre manière de faire clignoter la LED en langage C dans un sketch Arduino par exemple, tout en évitant l'emploi de fonctions Arduino :
+
+```arduino
+/* Blink Example
+ 
+   This example code is in the Public Domain (or CC0 licensed, at your option.)
+ 
+   Unless required by applicable law or agreed to in writing, this
+   software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+   CONDITIONS OF ANY KIND, either express or implied.
+*/
+#include <stdio.h>
+#include "freertos/FreeRTOS.h"
+#include "driver/gpio.h"
+
+#define LED_PIN GPIO_NUM_2
+#define BLINK_TIME 1000
+ 
+extern "C" void app_main()
+{
+    uint8_t led_value = 0;
+    gpio_reset_pin(LED_PIN);
+    gpio_set_direction(LED_PIN, GPIO_MODE_OUTPUT);
+
+
+    while (1) {
+        gpio_set_level(LED_PIN, led_value);
+        led_value = !led_value;
+        vTaskDelay(BLINK_TIME / portTICK_PERIOD_MS);
+    }
+}
+```
+
+Si vous avez des contraintes d'espace mémoire, d'optimisation (temps d'exécution), et pour avoir un code optimal et professionnel, utiliser plutôt le langage C, sinon le langage C++ déjà un peu plus "gourmand". Vous pouvez aussi être amené à travailler avec le framework ESP-IDF d'Espressif plutôt que le framework Arduino.

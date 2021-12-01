@@ -194,7 +194,7 @@ Comprendre le programme et le faire fonctionner.
 
 **Travail à faire :**&#x20;
 
-Écrire un programme qui vous permet de modifier en temps réel la période de clignotement de la LED bleue.
+Écrire un programme qui vous permet de modifier en temps réel la période de clignotement de la LED bleue. Choisir la méthode la plus adaptée.
 
 #### Documentation FreeRTOS pour approfondir la partie RTOS
 

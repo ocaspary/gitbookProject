@@ -1,6 +1,6 @@
 # Sémaphore et Mutex
 
-Les différences entre sémaphores et Mutex (Mutual Exclusion) sont notamment expliquées dans le tutoriel suivant : [https://fr.gadget-info.com/difference-between-semaphore](https://fr.gadget-info.com/difference-between-semaphore) .
+Les différences entre sémaphores et Mutex (Mutual Exclusion) sont notamment expliquées dans les tutoriels suivants : [https://fr.gadget-info.com/difference-between-semaphore](https://fr.gadget-info.com/difference-between-semaphore) , [https://microcontrollerslab.com/arduino-freertos-mutex-tutorial-priority-inversion-priority-inheritance/](https://microcontrollerslab.com/arduino-freertos-mutex-tutorial-priority-inversion-priority-inheritance/).
 
 Mutex est une technique de verrouillage qui évite la corruption des ressources partagées.
 

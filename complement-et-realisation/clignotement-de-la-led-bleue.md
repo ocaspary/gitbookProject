@@ -96,5 +96,3 @@ extern "C" void app_main()
 ```
 
 Si vous avez des contraintes d'espace mémoire, d'optimisation (temps d'exécution), et pour avoir un code optimal et professionnel, utiliser plutôt le langage C, sinon le langage C++ déjà un peu plus "gourmand". Vous pouvez aussi être amené à travailler avec le framework ESP-IDF d'Espressif plutôt que le framework Arduino.&#x20;
-
-En simulation, peu d'outils existent. Le site wokwi.com propose des simulations sous Arduino, ESP32, et même avec des tâches : [https://wokwi.com/arduino/projects/304851284204192320](https://wokwi.com/arduino/projects/304851284204192320) . La simulation est un peu lente (voir le chronomètre en haut à droite) mais fonctionnelle. Possibilité de faire les montages de base classiques sans le moindre matériel, en configurant un fichier diagram.json. Voir par exemple le tutoriel : [https://www.hackster.io/Hack-star-Arduino/esp32-online-simulator-you-were-looking-for-2021-327d42](https://www.hackster.io/Hack-star-Arduino/esp32-online-simulator-you-were-looking-for-2021-327d42) .
